@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'contacts_list.dart';
-import 'grid_view_screen.dart';
+import 'screens/grid_view_screen.dart';
 import 'shared_prefs_screen.dart';
-import 'async_screen.dart';
-import 'isolate_screen.dart';
+import 'screens/async_screen.dart';
+import 'screens/isolate_screen.dart';
 
 void main() {
   runApp(MyApp());
