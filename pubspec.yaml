@@ -1,5 +1,5 @@
-name: your_app_name
-description: A new Flutter project.
+name: lab_week4
+description: Week 4 Lab Exercises
 
 publish_to: 'none'
 
@@ -11,14 +11,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  
-  cupertino_icons: ^1.0.8
-  shared_preferences: ^2.3.2
-  
+  # shared_preferences: ^2.3.2  # ← COMMENT OUT để tránh lỗi
+  path_provider: ^2.1.4        # ← Dùng thay thế
+  cupertino_icons: ^1.0.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
-  
+
 flutter:
   uses-material-design: true
